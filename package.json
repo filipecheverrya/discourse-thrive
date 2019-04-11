@@ -1,0 +1,16 @@
+{
+    "name": "discourse-thrive",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "stylus --watch assets/main.styl -P -c --out index.css",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "stylus": "^0.54.5"
+    }
+}

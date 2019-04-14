@@ -1,5 +1,6 @@
 body .d-header-icons .d-icon {
   fill: #fff;
+  opacity: 1;
 }
 body .d-header .title a {
   display: block;
@@ -18,14 +19,11 @@ body .discourse-no-touch {
   background-color: #f5f5f5;
 }
 body .list-controls .select-kit.categories-admin-dropdown .select-kit-header .d-icon {
-  fill: #fff;
+  fill: #31393a;
 }
 body .list-controls .select-kit.categories-admin-dropdown button {
   background-color: #f5f5f5;
   border-radius: 4px;
-}
-body .list-controls .select-kit.categories-admin-dropdown button svg {
-  fill: #31393a;
 }
 body .category-list tbody {
   border-top: none;

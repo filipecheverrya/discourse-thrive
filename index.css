@@ -33,7 +33,7 @@ body .list-controls .select-kit.categories-admin-dropdown button {
   margin-right: 40px !important;
 }
 body .category-list tbody {
-  border-top: none;
+  border-top: 1px solid #f2f2f2;
 }
 body .category-list tbody .category {
   border-color: transparent !important;

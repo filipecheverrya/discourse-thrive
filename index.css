@@ -40,8 +40,19 @@ body .category-list tbody .category {
   border-radius: 4px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16);
 }
+body .category-list tbody .category h3 .category-title-link {
+  padding: 50px;
+  max-width: 150px;
+}
+body .category-list tbody .category:hover {
+  transition: box-shadow 0.2s;
+  box-shadow: 1px 5px 15px rgba(0,0,0,0.4);
+}
 body .nav-pills >li >a.active {
   font-weight: 900;
+  background-color: #fff;
+}
+body .nav-pills >li >a:hover {
   background-color: #fff;
 }
 body .list-controls .combo-box .combo-box-header {

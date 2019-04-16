@@ -167,7 +167,7 @@ body .category-heading p {
     display: block;
     text-align: center;
   }
-  body .topic-list tr {
+  body .topic-list tr:first-child {
     display: block;
     margin: 0 auto;
     max-width: 200px;

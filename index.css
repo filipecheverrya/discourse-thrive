@@ -44,7 +44,7 @@ body .list-controls .select-kit.categories-admin-dropdown button {
   }
 }
 @media (max-width: 1024px) {
-  body .category-list {
+  body .category-list.with-topics {
     max-width: 280px;
     margin: 0 auto;
     display: block;
@@ -71,7 +71,7 @@ body .category-list tbody .category:hover {
     display: block;
     border-color: transparent !important;
     box-shadow: 0 0px 8px rgba(0,0,0,0.4);
-    border-radius: 4px;
+    border-radius: 8px;
     margin: 15px 0;
   }
 }

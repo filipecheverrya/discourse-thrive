@@ -106,6 +106,9 @@ body .category-logo.aspect-image {
 body .footer-message.ember-view h3 >a {
   text-decoration: underline;
 }
+body .footer-message.ember-view .education .badge.new-posts.badge-notification {
+  background-color: #31393a !important;
+}
 body .select-kit .d-icon {
   opacity: 1 !important;
 }

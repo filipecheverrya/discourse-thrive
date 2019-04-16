@@ -106,3 +106,6 @@ body .category-logo.aspect-image {
 body .footer-message .ember-view h3 >a {
   text-decoration: underline;
 }
+body .select-kit .d-icon {
+  opacity: 1 !important;
+}

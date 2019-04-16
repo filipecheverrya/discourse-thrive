@@ -19,6 +19,12 @@ body
         .select-kit
             border-radius 4px
             border-color #31393A
+            .select-kit-header
+                .caret-icon
+                    background-color #ffffff;
+                    background-color transparent !important
+                    color #000000 !important
+                    opacity 1
     .discourse-no-touch
         background-color #F5F5F5
     .list-controls 
@@ -58,7 +64,13 @@ body
         .combo-box 
             .combo-box-header
                 border-radius 4px
-                background-color #ffffff
+                background-color #ffffff !important
+                border-color #31393A !important
+                .badge-category-bg
+                    background-color #ffffff !important
+                .category-name
+                    color #31393A
+                    
     .category-boxes 
         .category-box 
             border-color transparent !important
@@ -80,3 +92,11 @@ body
             .d-icon 
                 fill #31393A
                 opacity 1
+    .category-logo
+        &.aspect-image
+            margin-bottom 40px
+    .footer-message
+        .ember-view
+            h3
+                >a
+                    text-decoration underline

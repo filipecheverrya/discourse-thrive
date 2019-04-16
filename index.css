@@ -27,6 +27,11 @@ body .list-controls .select-kit .select-kit-header .caret-icon {
   color: #000 !important;
   opacity: 1;
 }
+@media (max-width: 1024px) {
+  body .list-controls .navigation-container {
+    justify-content: center;
+  }
+}
 body .discourse-no-touch {
   background-color: #f5f5f5;
 }
@@ -128,12 +133,6 @@ body .list-controls .btn .d-icon {
 }
 body .category-logo.aspect-image {
   margin-bottom: 40px;
-}
-@media (max-width: 1024px) {
-  body .category-logo.aspect-image {
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 body .footer-message.ember-view h3 >a {
   text-decoration: underline;

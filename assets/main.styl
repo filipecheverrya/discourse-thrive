@@ -25,6 +25,9 @@ body
                     background-color transparent !important
                     color #000000 !important
                     opacity 1
+        .navigation-container
+            @media (max-width 1024px)
+                justify-content center
     .discourse-no-touch
         background-color #F5F5F5
     .list-controls 
@@ -112,9 +115,7 @@ body
     .category-logo
         &.aspect-image
             margin-bottom 40px
-            @media (max-width 1024px)
-                margin-left auto
-                margin-right auto
+    
     .footer-message
         &.ember-view
             h3

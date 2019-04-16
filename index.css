@@ -167,4 +167,9 @@ body .category-heading p {
     display: block;
     text-align: center;
   }
+  body .topic-list tr {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+  }
 }

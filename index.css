@@ -103,7 +103,7 @@ body .list-controls .btn .d-icon {
 body .category-logo.aspect-image {
   margin-bottom: 40px;
 }
-body .footer-message .ember-view h3 >a {
+body .footer-message.ember-view h3 >a {
   text-decoration: underline;
 }
 body .select-kit .d-icon {

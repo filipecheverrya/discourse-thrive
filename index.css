@@ -115,3 +115,9 @@ body .select-kit .d-icon {
 body .badge-wrapper .badge-category .d-icon {
   fill: #31393a;
 }
+body .category-heading p {
+  max-width: 500px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 25px;
+}

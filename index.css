@@ -67,6 +67,15 @@ body .category-list tbody .category:hover {
   box-shadow: 1px 5px 15px rgba(0,0,0,0.4);
 }
 @media (max-width: 1024px) {
+  body .category-list-item .category {
+    display: block;
+    border-color: transparent !important;
+    box-shadow: 0 0px 8px rgba(0,0,0,0.4);
+    border-radius: 4px;
+    margin: 15px 0;
+  }
+}
+@media (max-width: 1024px) {
   body .nav-pills {
     margin-top: 20px;
   }

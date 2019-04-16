@@ -109,3 +109,6 @@ body .footer-message .ember-view h3 >a {
 body .select-kit .d-icon {
   opacity: 1 !important;
 }
+body .badge-wrapper .badge-category .d-icon {
+  fill: #31393a;
+}

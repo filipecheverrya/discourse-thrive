@@ -134,6 +134,12 @@ body .list-controls .btn .d-icon {
 body .category-logo.aspect-image {
   margin-bottom: 40px;
 }
+@media (max-width: 1024px) {
+  body .category-logo.aspect-image {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 body .footer-message.ember-view h3 >a {
   text-decoration: underline;
 }
@@ -151,4 +157,14 @@ body .category-heading p {
   font-size: 25px;
   font-weight: 600;
   margin-left: 25px;
+}
+@media (max-width: 1024px) {
+  body .topic-list {
+    display: block;
+  }
+  body .topic-list .ember-view {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
 }

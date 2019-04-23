@@ -11,7 +11,7 @@ body .d-header-icons .d-icon {
 body .d-header .title a {
   display: block;
   background: url("assets/img/logo.svg") 0 0 no-repeat;
-  width: 120px;
+  width: 125px;
   height: 40px;
 }
 body .d-header .title a img {
@@ -70,6 +70,9 @@ body .category-list tbody .category h3 .category-title-link {
 body .category-list tbody .category:hover {
   transition: box-shadow 0.2s;
   box-shadow: 1px 5px 15px rgba(0,0,0,0.4);
+}
+body .category-list tbody .category .category-name {
+  overflow: visible;
 }
 @media (max-width: 1024px) {
   body .category-list-item.category {
